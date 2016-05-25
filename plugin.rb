@@ -1,7 +1,7 @@
-# name: discourse-sso-fixer
-# about: A super simple plugin to demonstrate how plugins work
+# name: discourse-sso-strict_encode64
+# about: forces strict base 64 encoding on the sso payload
 # version: 0.0.1
-# authors: Awesome Plugin Developer
+# authors: Michael Holzheimer
 
 after_initialize do
   class ::SingleSignOn
